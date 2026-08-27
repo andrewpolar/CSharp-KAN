@@ -114,8 +114,7 @@ namespace ComplexD
             }
 
             (double targetMin, double targetMax) = FindLimits(targets_training);
-            double range = targetMax - targetMin;
- 
+   
             Stopwatch sw = Stopwatch.StartNew();
 
             //this is network configuration
