@@ -90,7 +90,7 @@ namespace ComplexD
             //this is relative error for testing. when 0.0 the data is accurate.
             //the error is added to features before computing the target.
             const double errorRate = (featureMax - featureMin) * 0.0;
-            const double alpha = 0.1;
+            const double alpha = 0.3;
 
             const int nDisjoints = 4;
             const int nDisjointSize = 6500;
